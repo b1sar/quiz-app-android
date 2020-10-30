@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ResultActivity"
+    android:background="@drawable/ic_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_winners"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey, Congratulations!"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your score was 6 correct answers"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btn_play_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play again"
+        android:background="@drawable/default_option_bg"
+        />
+</LinearLayout>
